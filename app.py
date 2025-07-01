@@ -10,7 +10,7 @@ tarefas = [
 
 @app.route("/")
 def home():
-    return jsonify({"mensagem": "Bem-vindo à API Flask do Otavio!"})
+    return jsonify({"mensagem": "Bem-vindo à minha API Flask!"})
 
 @app.route("/tarefas", methods=["GET"])
 def get_tarefas():
